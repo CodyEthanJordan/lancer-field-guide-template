@@ -9,20 +9,78 @@
     "description": "",
     "mounts": ["Main/Aux", "Flex"],
     "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 3,
+      "armor": 1,
+      "hp": 10,
+      "evasion": 12,
+      "edef": 8,
+      "heatcap": 5,
+      "repcap": 3,
+      "sensor_range": 5,
+      "tech_attack": -1,
+      "save": 11,
+      "speed": 5,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Clan Mech",
+        "description": "Clan mechs lack much of the safety and redundancy of other mech frames, only having 3 structure. However, each is fully customized to their pilot - gaining additional benefits from skills as detailed with the Chanur Clansmith core bonuses.\n- begin each battle with 1 Overshield per Engineering\n- increase Save Target by 1 for every 3 points of Systems\n- first ranged attack each round has ranged increased by Agility\n- may Overcharge without gaining heat for each 3 points of Hull"
+      },
+      {
+        "name": "Warrior Instinct",
+        "description": "1/round, when a character within Threat range of one of your melee weapons makes a ranged attack, you may make an Overwatch attack against them."
+      }
+    ],
+    "core_system": {
+      "name": "Pride of Chanur",
+      "description": "",
+      "activation": "Quick",
+      "active_name": "",
+      "active_effect": "",
+      "passive_name": "Pounce Upon Weakness",
+      "integrated": ["mw_iron_tiger_integrated"],
+      "passive_effect": "You are adept at fighting Vulnerable targets. These include any target which is Prone, Immobilized, Impaired, Jammed, or Stunned. Against such targets you deal 1d6 bonus damage.",
+      "active_actions": [
+        {
+          "name": "Clanfang",
+          "activation": "Reaction",
+          "trigger": "An ally hits a Vulnerable target",
+          "detail": "Their attack gains 1d3 bonus damage."
+        }
+      ]
+    },
+    "data_type": "frame",
+    "aptitude": {},
+    "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/emperor.png",
+    "license_id": "mf_iron_tiger"
+  },
+  {
+    "id": "mf_mad_cat",
+    "source": "CC",
+    "name": "Mad Cat",
+    "mechtype": ["Artillery"],
+    "y_pos": 21,
+    "license_level": 2,
+    "description": "",
+    "mounts": ["Heavy", "Flex", "Main"],
+    "stats": {
       "size": 2,
       "stress": 4,
       "structure": 3,
       "armor": 1,
-      "hp": 8,
+      "hp": 9,
       "evasion": 10,
-      "edef": 8,
-      "heatcap": 5,
+      "edef": 10,
+      "heatcap": 6,
       "repcap": 4,
-      "sensor_range": 5,
+      "sensor_range": 15,
       "tech_attack": 0,
       "save": 11,
       "speed": 5,
-      "sp": 6
+      "sp": 5
     },
     "traits": [
       {

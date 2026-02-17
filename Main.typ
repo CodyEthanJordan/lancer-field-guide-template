@@ -32,3 +32,10 @@ See the Field Guide to Field Guides for the instructions.
 #LicenseAutomatic(chanur, "Iron Tiger", 1)
 #LicenseAutomatic(chanur, "Iron Tiger", 2)
 #LicenseAutomatic(chanur, "Iron Tiger", 3)
+
+#FrameAutomatic(chanur, "Mad Cat", background: image(width: 7in, "images/IPS-N-Background.png"))
+#FullPageImageFramed(image("images/Drake-Facing.jpg"))
+#LicenseAutomatic(chanur, "Mad Cat", 1)
+#LicenseAutomatic(chanur, "Mad Cat", 2)
+#LicenseAutomatic(chanur, "Mad Cat", 3)
+
