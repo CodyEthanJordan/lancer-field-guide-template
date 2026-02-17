@@ -1,0 +1,21 @@
+[
+  {
+    "id": "ms_flank_advance",
+    "name": "Flank Advance",
+    "type": "System",
+    "sp": 2,
+    "source": "CC",
+    "license": "Iron Tiger",
+    "license_level": 1,
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "Move up to your Speed in a straight line, and gain Overshield equal to your Grit. Your total Overshield cannot exceed your Speed."
+      }
+    ],
+    "description": "Speed, precision, and decisiveness - these are the core tenants CC mech design. With this system the Iron Tiger can attain a flowing balance of offense and defense.",
+    "data_type": "system",
+    "aptitude": {},
+    "license_id": "mf_iron_tiger"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mw_dewclaw",
+    "name": "The Dewclaw",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "source": "SSC",
+    "license": "White Witch",
+    "license_level": 1,
+    "on_hit": "1/round, you may force a character hit by this weapon to make a Hull save. On a failure, both you and your target are Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. On any subsequent turn, you can end this effect as a protocol, knocking your target 4 spaces in any direction, or your target can end it by successfully hitting you with a ranged or melee attack. This condition can’t be removed any other way.",
+    "actions": [
+      {
+        "name": "Ferrofluid Lance Fling",
+        "activation": "Protocol",
+        "frequency": "1/round",
+        "detail": "End the immobilization effect of the Ferrofluid Lance on both you and your target to knock them back 4 spaces in any direction."
+      }
+    ],
+    "description": "“To say we can pull this needle from ‘thin air’ is the best-fit phrase, but it’s not accurate. Not entirely. There’s no such thing as thin air, not in the way one means it when they use that phrase. ‘Agreeable atomic space’ – that’s what ‘thin air’ really is. A place where one could – if one could – coalesce utility from useless particulate mass with a thought. With a snap of our finger. Here, watch this –”",
+    "data_type": "weapon",
+    "aptitude": {},
+    "license_id": "mf_white_witch"
+  },
+  {
+    "id": "mw_quickblade",
+    "name": "Quickblade",
+    "mount": "Auxiliary",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_thrown",
+        "val": 5
+      },
+      {
+        "id": "tg_overkill"
+      }
+    ],
+    "source": "CC",
+    "license": "Iron Tiger",
+    "license_level": 1,
+    "on_crit": "Your target must pass an Agility save or be knocked prone.",
+    "description": "",
+    "license_id": "mf_iron_tiger"
+  },
+  {
+    "id": "mw_iron_tiger_integrated",
+    "name": "The Dewclaw",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6"
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": 2
+      }
+    ],
+    "license_level": 0,
+    "effect": "When attacking with this weapon you my choose on of the following for each attack:\n- weapon gains Inaccurate, +1d6 bonus damage, and counts as a Heavy weapon.\n- weapon gains Smart, and causes targets which fails a Systems save to become Impaired on a critical hit.\n- weapon gains AP, Overkill, and becomes Threat 3",
+    "license_id": ""
+  }
+]
