@@ -6,7 +6,7 @@
     "mechtype": ["Striker"],
     "y_pos": 21,
     "license_level": 2,
-    "description": "",
+    "description": "The Iron Tiger is one of Chanur's earliest designs, born out of the dueling customs of their clan warriors.",
     "mounts": ["Main/Aux", "Flex"],
     "stats": {
       "size": 1,

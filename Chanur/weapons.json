@@ -98,5 +98,37 @@
     "license_level": 0,
     "effect": "When attacking with this weapon you my choose on of the following for each attack:\n- weapon gains Inaccurate, +1d6 bonus damage, and counts as a Heavy weapon.\n- weapon gains Smart, and causes targets which fails a Systems save to become Impaired on a critical hit.\n- weapon gains AP, Overkill, and becomes Threat 3",
     "license_id": ""
+  },
+    {
+    "id": "mw_executioner_pistol",
+    "name": "Executionery Pistol",
+    "mount": "Auxiliary",
+    "type": "CQB",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2"
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "source": "CC",
+    "license": "Iron Tiger",
+    "license_level": 2,
+    "on_crit": "Deal 2 AP kinetic damage to another target within range.",
+    "license_id": "mf_iron_tiger"
   }
 ]

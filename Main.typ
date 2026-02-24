@@ -25,15 +25,14 @@
 
 See the Field Guide to Field Guides for the instructions.
 
-== Frames 
-
-#FrameAutomatic(chanur, "Iron Tiger", background: image(width: 7in, "images/IPS-N-Background.png"))
+== Frames
+#FrameAutomatic(chanur, "Iron Tiger", background: image(width: 7in, "images/chanur-logo.png"))
 #FullPageImageFramed(image("images/Drake-Facing.jpg"))
 #LicenseAutomatic(chanur, "Iron Tiger", 1)
 #LicenseAutomatic(chanur, "Iron Tiger", 2)
 #LicenseAutomatic(chanur, "Iron Tiger", 3)
 
-#FrameAutomatic(chanur, "Mad Cat", background: image(width: 7in, "images/IPS-N-Background.png"))
+#FrameAutomatic(chanur, "Mad Cat", background: image(width: 7in, "images/chanur-logo.png"))
 #FullPageImageFramed(image("images/Drake-Facing.jpg"))
 #LicenseAutomatic(chanur, "Mad Cat", 1)
 #LicenseAutomatic(chanur, "Mad Cat", 2)
