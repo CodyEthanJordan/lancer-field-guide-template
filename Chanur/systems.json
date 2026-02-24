@@ -33,5 +33,22 @@
     "effect": "You can lock on as a free action against targets who are Prone, Immobilized, Impaired, Jammed or Stunned. \n Movement from Booting ignores engagement and does not provoke reactions.",
     "data_type": "system",
     "license_id": "mf_iron_tiger"
+  },
+  {
+    "id": "ms_predator_actuator",
+    "name": "Null Skates",
+    "type": "System",
+    "sp": 1,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "CC",
+    "license": "Mad Cat",
+    "license_level": 1,
+    "effect": "When you are subject to involuntary movement, including teleportation, you may either half (rounding down) or double the distance travelled.",
+    "data_type": "system",
+    "license_id": "mf_mad_cat"
   }
 ]
