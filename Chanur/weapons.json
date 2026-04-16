@@ -130,5 +130,39 @@
     "license_level": 2,
     "on_crit": "Deal 2 AP kinetic damage to another target within range.",
     "license_id": "mf_iron_tiger"
+  },
+  {
+    "id": "mw_stone_burner",
+    "name": "Stone Burner",
+    "mount": "Auxiliary",
+    "type": "Melee",
+    "damage": [
+      {
+        "type": "Energy",
+        "val": "1"
+      },
+      {
+        "type": "Burn",
+        "val": 1
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 2
+      }
+    ],
+    "source": "CC",
+    "license": "Mad Cat",
+    "license_level": 1,
+    "on_hit": "The target is Shredded as long as they are affected by Burn.",
+    "description": "The Stone Burner is a danerous weapon designed to crack even the hardest targets. Originally developed for industrial applications, but following its effective employment in a worker's uprising soon it became a staple of the battlefield.",
+    "license_id": "mf_mad_cat"
   }
 ]
