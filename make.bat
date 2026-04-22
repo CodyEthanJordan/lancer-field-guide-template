@@ -1,0 +1,1 @@
+typst compile Main.typ --font-path fonts/
